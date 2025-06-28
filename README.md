@@ -1,71 +1,109 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19863162&assignment_repo_type=AssignmentRepo)
-# React.js and Tailwind CSS Assignment
+# 🌟 PLP React Task Manager App
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+This is a responsive React.js application built for **Week 3 - React, JSX, and Tailwind CSS** assignment. The app features a task manager and a mock public API viewer, showcasing React component architecture, hooks, state management, and Tailwind CSS styling.
 
-## Assignment Overview
+## 🚀 Live Demo
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+🔗 [Live App on Netlify](https://steady-faun-805be7.netlify.app/)
 
-## Getting Started
+---
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+## 📌 Features
 
-## Files Included
+### ✅ Task Manager
+- Add, delete, and mark tasks as complete
+- Filter tasks (All, Active, Completed)
+- Persist tasks using `localStorage`
+- Responsive and styled with Tailwind CSS
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+### ✅ Public API (Demo) Posts
+- Displays mock blog posts
+- Search functionality to filter posts
+- Responsive grid layout
+- Clean UI with dark/light mode support
 
-## Requirements
+---
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+## 🛠️ Tech Stack
 
-## Project Structure
+- **React** (with JSX)
+- **Tailwind CSS**
+- **Vite** (React + fast bundler)
+- **Netlify** (Deployment)
+- **Custom Hooks** (e.g., `useLocalStorage`)
+- **Functional Components & Props**
+- **Dark Mode Theme** using Tailwind
 
-```
+---
+
+## 🧑‍💻 How to Run Locally
+
+### 1. Clone the repository:
+```bash
+git clone <your-repo-link>
+cd week-3-react-app
+
+Install dependencies:
+npm install
+
+3. Run development server:
+npm run dev
+
+4. Build for production:
+npm run build
+
+5. Preview production build (optional):
+npm run preview
+
+📁 Project Structure
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+├── App.jsx
+├── index.css
+├── main.jsx
+├── Button.jsx
+├── TaskManager.jsx
+├── APIFetcher.jsx
+├── Navbar.jsx
+├── Footer.jsx
+└── Layout.jsx
+📷 Screenshots
+Include screenshots of:
 
-## Submission
+Task Manager
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+API Post Viewer
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+Responsive views (mobile/tablet)
 
-## Resources
+📦 Deployment
+This app is deployed on Netlify:
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+Build Command: npm run build
+
+Publish Directory: dist/
+
+🔗 https://steady-faun-805be7.netlify.app/
+
+👨‍🏫 Assignment Requirements Checklist
+ Component Architecture
+
+ State Management with Hooks
+
+ API Integration (mocked for clarity)
+
+ Custom Hook: useLocalStorage
+
+ Tailwind Styling + Dark Mode
+
+ Responsive Design
+
+ Deployment to Netlify
+
+🙌 Acknowledgements
+JSONPlaceholder API (mocked)
+
+Tailwind CSS Docs
+
+React Documentation
+
+Pexels for image inspiration (optional)
